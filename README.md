@@ -1,6 +1,10 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. It has been extended with a small tool for estimating the memory usage of a large language model during local inference.
+
+## LLM RAM Calculator
+
+Run `npm run dev` and open the application in the browser. Fill in the model parameters, precision, layer count, hidden size and sequence length to see an estimate of the required RAM.
 
 Currently, two official plugins are available:
 
